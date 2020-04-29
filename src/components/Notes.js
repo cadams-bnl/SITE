@@ -1,40 +1,17 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 
-class Notes extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {buttonColor: 'red'};               
-        this.changeColor = this.changeColor.bind(this);   // binding this to set component
-    }
+const colors = [ 'red', 'green', 'blue']
 
-    /*
-    componentDidMount() {
-        this.buttonID = setUp(
-            () => this.set()
-        );
-    }
-    */
-    
+function Notes() {
+    const [colorIndex, setColorIndex] = useState(0);
 
-    /*
-    componentWillMount() {
-
-    }
-    */
-
-    
-    changeColor(){
-        this.setState(state => ({
-           buttonColor: 'blue'
-        }));
-    }
-    
-    
-    render(){
-        return <button style={this.state} onClick={this.changeColor}>Color Button</button>
-    }
+    return(
+        <div>
+            <button style={{color: colors[colorIndex % 3]}} onClick={() => setColorIndex(colorIndex + 1)}>
+                Color button
+            </button>
+        </div>
+    )
 }
-
 export default Notes;
-
