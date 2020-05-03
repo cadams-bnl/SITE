@@ -8,7 +8,7 @@ class Page2 extends React.Component {
     }
     render() {
         return (
-            <div>
+            <div >
                 <h1> Page 2 </h1>
             </div>
         )

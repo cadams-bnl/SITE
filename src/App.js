@@ -1,21 +1,22 @@
 import React from 'react';
 import './css/App.css';
-import Home from './components/Home';
-import Page2 from './components/Page2';
-import Page3 from './components/Page3';
-import Notes from './components/Notes';
 import NavBar from './NavBar';
-// import Notes from './components/Notes';
-import { Route } from 'react-router-dom';
+import Page from './Page';
+import './bootstrap-css-only/css/bootstrap.min.css';
+import './bootstrap-css-only/css/bootstrap.min.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <NavBar />
-      <Route exact path="/" component={ Home }/>
-      <Route exact path="/page2" component={ Page2 }/>
-      <Route exact path="/page3" component={ Page3 }/>
-      <Route exact path="/notes" component={ Notes }/>
+    <div class="container">
+        <div class="row justify-content-end text-center"> 
+          <div class="col-3">
+            <NavBar />
+          </div>
+        </div>
+        <div class="text-center" >
+          <Page /> 
+        </div>
     </div>
   );
 }
