@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 class Page2 extends React.Component {
     list = {
         one: '1',

@@ -1,27 +1,24 @@
 import React from 'react';
-import { Link, Route } from 'react-router-dom';
-import './bootstrap-css-only/css/bootstrap.min.css';
-import './bootstrap-css-only/css/bootstrap.min.css';
-
+import { Link } from 'react-router-dom';
+import './bootstrap-css-only/css/bootstrap.css';
 
 
 function NavBar() {
     return(
-        <div>
-            <ul class="list-unstyled" style={{backgroundColor:"#292929"}}>
-                <li>
+            <div class="row" class="navbar" style={{backgroundColor:"#292929"}}>
+                <div class="col">
                     <Link to="/" class="text-light">Home</Link>  
-                </li>                    <li>
-                     <Link to="/page2" class="text-light">Page 2</Link>
-                </li>
-                <li>
+                </div >                    
+                <div class="col">
+                    <Link to="/page2" class="text-light">Page2</Link>
+                </div >
+                <div class="col">
                     <Link to="/wasabi" class="text-light">Wasabi</Link>
-                </li>
-                <li>
+                </div >
+                <div class="col">
                     <Link to="/notes" class="text-light">Notes</Link>
-                </li>
-            </ul>
-        </div>
+                </div >
+            </div >
     )
 }
 

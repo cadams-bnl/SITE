@@ -1,12 +1,21 @@
 import React from 'react';
-import '../bootstrap-css-only/css/bootstrap.min.css';
-import '../bootstrap-css-only/css/bootstrap-grid.min.css';
+import { Route } from 'react-router-dom';
+import '../bootstrap-css-only/css/bootstrap.css';
 
 function Home() {
   return (
-    <div class>
-      <h1>Home</h1>
-    </div>
+    <div class="container">
+      <div >
+        <div class="text-light" style={{height:"100px", backgroundColor:"#292929"}}>
+          Opening Header
+        </div>
+      </div>
+      <div>
+        <p>
+          A bunch of writing...
+        </p>
+      </div>
+    </div>  
   );
 }
 

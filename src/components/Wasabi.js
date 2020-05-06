@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 
+
 function Wasabi() {
   const [count, setCount] = useState(300);
   return (
