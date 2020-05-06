@@ -1,13 +1,12 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
 import '../bootstrap-css-only/css/bootstrap.css';
 
 function Home() {
   return (
     <div class="container">
       <div >
-        <div class="text-light" style={{height:"100px", backgroundColor:"#292929"}}>
-          Opening Header
+        <div class="text-light" style={{height:"300px", backgroundColor:"#292929"}}>
+          Intro
         </div>
       </div>
       <div>

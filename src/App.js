@@ -6,16 +6,18 @@ import './bootstrap-css-only/css/bootstrap.css';
 
 function App() {
   return (
-    <div class="container-xl">
-        <div class="row justify-content-end text-center"> 
-          <div >
-            <NavBar />
-          </div>
+    <div class="container">
+      <div class="row"> 
+        <div class="col">
+          Header
         </div>
-        <div class="text-center" >
-          <Page /> 
-          
+        <div class="col">
+          <NavBar />
         </div>
+      </div>
+      <div class="text-center">
+        <Page />
+      </div>
     </div>
   );
 }
