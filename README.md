@@ -1,4 +1,3 @@
-Website with React
 Commits:
   1. Initalized repository
   2. Create 2 pages
