@@ -1,0 +1,85 @@
+/* my css */
+
+.header {
+  background-color: #292929;
+  border: 1px black solid;
+  padding-bottom: 20px;
+}
+.intro {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 300px;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.sec-1 {
+  padding-bottom: 30px;
+  border-bottom: 1px grey solid;
+  padding-top: 40px;
+}
+
+.sec-2a {
+  background-color: #f8f8f8;
+  border-bottom: 1px rgb(238,238,238) solid;
+  color: rgb(102, 102, 102);
+  font: 14px sans-serif 300;
+  line-height: 20px;
+  padding: 60px 0px;
+}
+
+.sec-2b {
+  background-color: #f1f1f1;
+  border: 1px rgb(232, 232, 232) solid;
+  color: #666;
+  font: 14px sans-serif 300;
+  line-height: 20px;
+  padding: 60px 0px;
+}
+
+.home-head-img {
+  height: 75px;
+  margin-left: 15px;
+}
+
+.home-circ-img {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+.home-sq-img {
+  border-radius: 5px;
+  height: 200px;
+  width: 200px;
+}
+
+.navbar-container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+
+.intro-container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.my-button {
+  border-radius: 20px;
+}
+
+/* not sure how to implement this */
+.arrow {
+  height: 0px;
+  width: 0px;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid black;
+}
+
+

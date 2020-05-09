@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 
 
-function Wasabi() {
+function Services() {
   const [count, setCount] = useState(300);
   return (
     <div>
@@ -12,4 +12,4 @@ function Wasabi() {
   );
 }
 
-export default Wasabi;
+export default Services;

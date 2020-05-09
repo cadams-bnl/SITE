@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-class Page2 extends React.Component {
+class Portfolio extends React.Component {
     list = {
         one: '1',
         two: '2',
@@ -15,4 +15,4 @@ class Page2 extends React.Component {
         )
     }
 }
-export default Page2;
+export default Portfolio;

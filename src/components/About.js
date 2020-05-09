@@ -1,10 +1,8 @@
 import React, {useState} from 'react';
 
-
-
 const colors = [ 'red', 'green', 'blue']
 
-function Notes() {
+function About() {
     const [colorIndex, setColorIndex] = useState(0);
 
     return(
@@ -15,4 +13,4 @@ function Notes() {
         </div>
     )
 }
-export default Notes;
+export default About;
