@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './components/Header';
+import NavBar from './components/NavBar'
 import Page from './components/Page';
 import './css/bootstrap.css';
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <div>
-        <Header />
+        <NavBar/>
       </div>
       <div class="text-center">
         <Page />

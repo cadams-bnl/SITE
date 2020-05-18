@@ -1,15 +1,12 @@
-import React, {useState} from 'react';
+import React from 'react';
 
 
 function Services() {
-  const [count, setCount] = useState(300);
-  return (
-    <div>
-      <h1>How much more can you eat? You're at {count} servings!</h1>
-      <button onClick={() => setCount(count + 1)}> Eat 1 Serving </button>
-      <button onClick={() => setCount(count + 3)}> Eat 3 servings </button>
-    </div>
-  );
+    return (
+      <div>
+        <h1>Services</h1>
+      </div>
+    )
 }
 
 export default Services;
