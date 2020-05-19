@@ -9,7 +9,7 @@ function Home() {
       <div>
         <script src="https://kit.fontawesome.com/f0a0f9a214.js" crossorigin="anonymous"></script>
         <div class="intro intro-container">
-            Intro
+            Intro Animation
         </div>
   
         <div class="container-fluid">
@@ -29,7 +29,7 @@ function Home() {
                 right data that tells you where you are and how to get where you want to go.
               </div>
               <div >
-                <button class="btn my-btn" type="link">
+                <button class="btn home-btn" type="link">
                   Data Analytics &nbsp;
                   <FontAwesomeIcon icon={faCaretRight} />
                 </button>
@@ -50,7 +50,7 @@ function Home() {
                 decisions faster.
               </div>
               <div >
-                <button class="btn my-btn" type="link">
+                <button class="btn home-btn" type="link">
                   Visualization strategies &nbsp;
                   <FontAwesomeIcon icon={faCaretRight} />
                 </button>
@@ -69,7 +69,7 @@ function Home() {
                 need all the time.
               </div>
               <div >
-                <button class="btn my-btn" type="link">
+                <button class="btn home-btn" type="link">
                   Integration Solutions &nbsp;
                   <FontAwesomeIcon icon={faCaretRight} />
                 </button>
@@ -96,7 +96,6 @@ function Home() {
                   alt={'Not working'}>
               </img>
             </div>
-            
             <div class="col-md-9">
               <p>Description</p>
             </div>  
