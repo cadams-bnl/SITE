@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 import '../css/bootstrap.css';
 import '../css/main.css';
 
-// Navbar needs jQuery
+// not sure how to move text of navbar over to right
+// needs to expand/shrink based off screen size ("auto" attribute?)
 
 function NavBar() {
     return(
@@ -23,14 +24,14 @@ function NavBar() {
 
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <Link class="nav-link" to="/portfolio" style={{color:"#9ea0a0"}}>Portfolio</Link>
+                        <Link class="nav-link" to="/portfolio" style={{color:"#9ea0a0"}}>PORTFOLIO</Link>
                     </li>
 
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" 
                             style={{color:"#9ea0a0"}}>
-                            Services
+                            SERVICES
                         </a>
                         <div class ="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="#" style={{color:"#9ea0a0"}}>Data Analytics</a>
@@ -42,15 +43,15 @@ function NavBar() {
                     </li>
 
                     <li class="nav-item">
-                        <Link class="nav-link" to="/about" style={{color:"#9ea0a0"}}>About</Link>
+                        <Link class="nav-link" to="/about" style={{color:"#9ea0a0"}}>ABOUT</Link>
                     </li>
 
                     <li class="nav-item">
-                        <Link class="nav-link" to="/blog" style={{color:"#9ea0a0"}}>Blog</Link>
+                        <Link class="nav-link" to="/blog" style={{color:"#9ea0a0"}}>BLOG</Link>
                     </li>
 
                     <li class="nav-item">
-                        <Link class="nav-link" to="/contact" style={{color:"#9ea0a0"}}>Contact</Link>
+                        <Link class="nav-link" to="/contact" style={{color:"#9ea0a0"}}>CONTACT</Link>
                     </li>
                 </ul>
     
@@ -68,25 +69,25 @@ export default NavBar;
 
 
 
-        /*
+/*
 
 
-        <div class="navbar-container text-center">
-            <div class="row" style={{backgroundColor:"#292929"}}>
-                <div class="col">
-                    <Link to="/" class="text-light">Home</Link>  
-                </div >                    
-                <div class="col">
-                    <Link to="/portfolio" class="text-light">Portfolio</Link>
-                </div >
-                <div class="col">
-                   <Link to="/services" class="text-light">Services</Link>
-                </div >
-                <div class="col">
-                    <Link to="/about" class="text-light">About</Link>
-                </div >
-            </div >
-        </div>
+ <div class="navbar-container text-center">
+    <div class="row" style={{backgroundColor:"#292929"}}>
+        <div class="col">
+            <Link to="/" class="text-light">Home</Link>  
+        </div >                    
+        <div class="col">
+            <Link to="/portfolio" class="text-light">Portfolio</Link>
+        </div >
+        <div class="col">
+            <Link to="/services" class="text-light">Services</Link>
+        </div >
+        <div class="col">
+            <Link to="/about" class="text-light">About</Link>
+        </div >
+    </div >
+</div>
         
-        */
+*/
      

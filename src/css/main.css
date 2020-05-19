@@ -3,39 +3,33 @@
 
 /* PAGE SECTIONS */
 
-
+/*
 .my-navbar {
   background-color: #252c35;
+  height: 150px;
+  transition: all .3s ease-in-out;
 }
-@media only screen and (max-width: 768px) {
-  .my-navbar {
-    background-color: #292929;
-  }
-}
+*/
 
-.bar {
-  font-family: sans-serif;
+.my-navbar {
+  background-color: #292929;
+  height: 75px;
+  transition: all .3s ease-in-out;
 }
 @media only screen and (min-width: 768px) {
-  .bar {
-    float: right;
+  .my-navbar {
+    background-color: #252c35;
+    height: auto;
   }
 }
-
-.nav-col {
-  color: #9ea0a0;
-}
-
-.header {
-  background-color: #252c35;
-  border: 1px black solid;
-  padding-bottom: 20px;
-}
+/*
 @media only screen and (max-width: 768px) {
-  .header {
-    background-color: #292929;
+  .my-navbar {
+    background-color: #292929; 
   }
 }
+*/
+
 
 /* not being used currently ...
 .intro {
@@ -67,7 +61,6 @@
   line-height: 20px;
   padding: 60px 0px;
 }
-
 */
 
 
@@ -75,6 +68,7 @@
 
 .navbar-img {
   height: 80px;
+  margin-left: 50px;
   transition: all .3s ease-in-out;
 }
 @media only screen and (max-width: 992px) {
@@ -89,6 +83,7 @@
     margin: 6px 0 0 20px;
   }
 }
+
 
 .home-circ-img {
   border-radius: 50%;
@@ -108,20 +103,24 @@
   width: 200px;
 }
 
-/* containers */
-.navbar-container {
-  margin-right: auto;
-  margin-left: auto;
-  width: 100%;
-}
+/* CONTAINERS */
 
 .intro-container {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
+  height: 400px;
+  background-color: #252c35;
+  border-bottom: 2px black solid;
 }
 
-/* text */
+/* GENERAL */
+
+.col {
+  margin-top: 25px;
+}
+
+/*
 .h3, h3 {
   font-size: 24px;
 }
@@ -139,8 +138,10 @@ h1, h2, h3, h4, h5, h6 {
   color: inherit;
 
 }
+*/
 
-/* buttons */
+/* BUTTONS */
+
 .home-btn {
   color: #333;
   background-color: #fff;
