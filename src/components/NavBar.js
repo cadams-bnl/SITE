@@ -8,7 +8,7 @@ import '../css/main.css';
 
 function NavBar() {
     return(
-        <nav class="navbar navbar-expand-md navbar-dark my-navbar">
+        <nav class="navbar navbar-expand-md navbar-dark navbar-fixed-top my-navbar">
             <Link class="navbar-brand" to="/">
                 <img class="navbar-img" src="https://bnlconsulting.com/images/bnl-logo.47c3fb5e.svg" 
                     alt={'Not working'} />
@@ -22,7 +22,7 @@ function NavBar() {
 
             <div class="collapse navbar-collapse" id="navID">
 
-                <ul class="navbar-nav mr-auto">
+                <ul class="nav navbar-nav navbar-right">
                     <li class="nav-item active">
                         <Link class="nav-link" to="/portfolio" style={{color:"#9ea0a0"}}>PORTFOLIO</Link>
                     </li>
