@@ -1,7 +1,6 @@
 import React from 'react';
-import NavBar from './components/NavBar'
-import Page from './components/Page';
-import './css/bootstrap.css';
+import NavBar from './containers/page/NavBar'
+import Page from './components/nonPage/Page';
 
 
 function App() {

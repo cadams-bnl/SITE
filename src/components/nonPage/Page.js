@@ -1,16 +1,15 @@
 import React from 'react';
 
-import Home from './Home';
+import Home from '../../containers/page/Home';
 
-import Portfolio from './Portfolio';
-import Services from './Services';
-import About from './About';
-import Blog from './Blog';
-import Contact from './Contact'
+import Portfolio from '../../containers/page/Portfolio';
+import Services from '../../containers/page/Services';
+import About from '../../containers/page/About';
+import Blog from '../../containers/page/Blog';
+import Contact from '../../containers/page/Contact'
 
 
 import { Route } from 'react-router-dom';
-import '../css/bootstrap.css';
 
 
 function Page() {

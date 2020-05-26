@@ -1,7 +1,7 @@
 /* my css */
 
 
-/* PAGE SECTIONS */
+/* NAVBAR */
 
 /*
 .my-navbar {
@@ -115,13 +115,6 @@
   color: white;
 }
 
-.sec1-container {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  padding-right: 25px;
-  padding-left: 25px;
-  box-sizing: border-box;
-}
 
 /* GENERAL */
 img {
@@ -133,6 +126,7 @@ h3 {
   font-size: 24px;
   font-weight: 500;
   line-height: 1.1;
+  color: #656565
 }
 
 p {
@@ -143,12 +137,6 @@ p {
   font-weight: 300;
   line-height: 1.42857143;
   color: #666;
-  box-sizing: border-box;
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
 }
 
 
@@ -162,7 +150,6 @@ p {
 }
 
 /* OTHER */
-
 .spacer-15 {
   width: 1px;
   height: 15px;
@@ -170,6 +157,13 @@ p {
   clear: both;
 }
 
+/* CUSTOM */
+
+/* line for first section */
+.sec-margin {
+  margin-bottom: 100px;
+  
+}
 .line-solid {
   clear: both;
   border-bottom: 1px solid #ccc;
@@ -182,6 +176,112 @@ p {
     display: none;
   }
 }
+
+
+/* SECTION 1 */
+.p1-box {
+  border: 1px solid red;
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: center;
+  width: 340px;
+  height: 300px;
+  margin-top: 16px;
+  margin-block-start: 16px;
+  margin-block-end: 16px;
+  padding: 0 25px;
+  
+
+  font-family: sans-serif;
+  font-size: 18px;
+  color: #666666;
+  font-weight: 300;
+  line-height: 27px;
+  text-size-adjust: 100%;
+}
+@media (max-width: 992px){
+  .p1-box {
+    width: 273.33px;
+    height: 430px;
+  }
+}
+@media (max-width: 768px){
+  .p1-box{
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    line-height: 22.8571px;
+  }
+}
+@media (max-width: 576px){
+  .p1-box{
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+
+/* SECTION 2 */
+.featurette {
+  margin: none;
+}
+.featurette:nth-of-type(odd) {
+  background-color: #f8f8f8;
+}
+.featurette:nth-of-type(even) {
+  background-color: #f1f1f1;
+}
+
+
+
+
+.sec2-1 {
+  text-align: left;
+  border: 1px solid red;
+  padding: 60px 0;
+  
+}
+
+.p2-box {
+  border: 1px solid red;
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: right;
+
+  font-family: sans-serif;
+  font-size: 18px;
+  color: #666666;
+  font-weight: 300;
+  line-height: 27px;
+  text-size-adjust: 100%;
+
+}
+
+
+
+
+.sec2-2 {
+  text-align: right;
+  border: 1px solid red;
+  padding: 60px 0;
+}
+
+.p2b-box {
+  border: 1px solid red;
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: left;
+
+  font-family: sans-serif;
+  font-size: 18px;
+  color: #666666;
+  font-weight: 300;
+  line-height: 27px;
+  text-size-adjust: 100%;
+}
+
+
+
 
 
 

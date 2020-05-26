@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../css/bootstrap.css';
-import '../css/main.css';
+import '../../css/main.css';
 
 // not sure how to move text of navbar over to right
 // needs to expand/shrink based off screen size ("auto" attribute?)
@@ -22,7 +21,7 @@ function NavBar() {
 
             <div class="collapse navbar-collapse" id="navID">
 
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav">
                     <li class="nav-item active">
                         <Link class="nav-link" to="/portfolio" style={{color:"#9ea0a0"}}>PORTFOLIO</Link>
                     </li>
