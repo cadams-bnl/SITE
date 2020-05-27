@@ -13,9 +13,9 @@ function Home() {
   
         <div class="container-fluid">
   
-          <div class="row">
+          <div class="row p1-cont">
   
-            <div class="col-md-4">
+            <div class="col-lg-4">
                 <img class="home-circ-img" src="https://bnlconsulting.com/images/intro/Data-Analytics-Icon.e044888c.png" 
                   alt={'Not working'}>
                 </img>
@@ -38,7 +38,7 @@ function Home() {
                 <div class="line-solid"></div>
             </div>
   
-            <div class="col-md-4">
+            <div class="col-lg-4">
               <img class="home-circ-img" src="https://bnlconsulting.com/images/intro/Data-Visualization-Icon.bdda0ef9.png"
                 alt={'Not working'}>
               </img>
@@ -61,7 +61,7 @@ function Home() {
               <div class="line-solid"></div>
             </div>
   
-            <div class="col-md-4">
+            <div class="col-lg-4">
               <img class="home-circ-img" src="https://bnlconsulting.com/images/intro/Enterprise-Integration-Icon.ef5f0a70.png"
                 alt={'Not working'}></img>
               <h3>Enterprise Integration</h3>
@@ -80,7 +80,7 @@ function Home() {
                   <FontAwesomeIcon icon={faCaretRight} />
                 </button>
               </div>
-              <div class="line-solid"></div>
+              
             </div>
   
           </div>
@@ -91,13 +91,14 @@ function Home() {
 
         <div class="container-fluid">
 
-          <div class="row sec-2a">
-            <div class="col-md-3 featurette">
+          <div class="row featurette">
+          
+            <div class="col-lg-3 col-override">
               <img class="home-sq-img" src="https://bnlconsulting.com/images/intro/Capitol-Icon.9fe0c40c.png" 
                 alt={'Not working'}>
               </img>
             </div>
-            <div class="col-md-9 sec2-1">
+            <div class="col-lg-9 sec2-1 col-override">
               <h3> Public Sector</h3>
               <p class="p2-box">
                 BNL Consulting is proud to be one of the largest professional services 
@@ -110,17 +111,19 @@ function Home() {
                 without the red tape.
               </p>
             </div>
+          
           </div>
   
-          <div class="row sec-2b">
-            <div class="col-md-3 featurette">
+          <div class="row featurette">
+        
+            <div class="col-lg-3 order-lg-2">
               <img class="home-sq-img" src="https://bnlconsulting.com/images/intro/Pulse-Icon.6d11c744.png" 
                   alt={'Not working'}>
               </img>
             </div>
-            <div class="col-md-9 sec2-2">
-              <h3>Health &amp; Medical</h3>
-              <p class="p2b-box">
+            <div class="col-lg-9 sec2-2">
+              <h3 class="order-lg-1">Health &amp; Medical</h3>
+              <p class="p2b-box order-lg-1">
                 The landscape of the healthcare, medical, and pharmaceutical industries is 
                 dramatically changing and doing so rapidly. Whether you want to manage your
                 costs by accurately identifying super-utilizers, ensure your organization’s
@@ -129,16 +132,18 @@ function Home() {
                 intuitive visualizations and highly-customizable workflows, our offerings can 
                 make sure your organization remains healthy and productive.
               </p>
-            </div>  
+            </div> 
+           
           </div>
   
-          <div class="row sec-2a">
-            <div class="col-md-3 featurette">
+          <div class="row featurette">
+          
+            <div class="col-lg-3">
               <img class="home-sq-img" src="https://bnlconsulting.com/images/intro/Play-Icon.9955321b.png" 
                 alt={'Not working'}>
               </img>
             </div>
-            <div class="col-md-9 sec2-1">
+            <div class="col-lg-9 sec2-1">
               <h3>Sport &amp; Entertainment</h3>
               <p class="p2-box">
                 It’s no secret that advanced analytics are taking the sports world by storm, 
@@ -150,6 +155,7 @@ function Home() {
                 BNL Consulting can help you come out on top.
               </p>
             </div>
+          
           </div>
 
         </div>
