@@ -6,6 +6,7 @@ import { faCaretRight } from '@fortawesome/free-solid-svg-icons';
 function Home() {
     return (
       <div>
+
         <script src="https://kit.fontawesome.com/f0a0f9a214.js" crossorigin="anonymous"></script>
         <div class="intro intro-container">
             Intro Animation
@@ -37,7 +38,7 @@ function Home() {
                 </div>
                 <div class="line-solid"></div>
             </div>
-  
+
             <div class="col-lg-4">
               <img class="home-circ-img" src="https://bnlconsulting.com/images/intro/Data-Visualization-Icon.bdda0ef9.png"
                 alt={'Not working'}>
@@ -60,7 +61,8 @@ function Home() {
               </div>
               <div class="line-solid"></div>
             </div>
-  
+          
+
             <div class="col-lg-4">
               <img class="home-circ-img" src="https://bnlconsulting.com/images/intro/Enterprise-Integration-Icon.ef5f0a70.png"
                 alt={'Not working'}></img>
@@ -80,10 +82,13 @@ function Home() {
                   <FontAwesomeIcon icon={faCaretRight} />
                 </button>
               </div>
-              
+
             </div>
-  
+
           </div>
+
+
+
         </div>
   
         <div class="sec-margin"></div>
@@ -92,7 +97,6 @@ function Home() {
         <div class="container-fluid">
 
           <div class="row featurette">
-          
             <div class="col-lg-3 col-override">
               <img class="home-sq-img" src="https://bnlconsulting.com/images/intro/Capitol-Icon.9fe0c40c.png" 
                 alt={'Not working'}>
@@ -111,11 +115,9 @@ function Home() {
                 without the red tape.
               </p>
             </div>
-          
           </div>
-  
-          <div class="row featurette">
         
+          <div class="row featurette">
             <div class="col-lg-3 order-lg-2">
               <img class="home-sq-img" src="https://bnlconsulting.com/images/intro/Pulse-Icon.6d11c744.png" 
                   alt={'Not working'}>
@@ -133,7 +135,6 @@ function Home() {
                 make sure your organization remains healthy and productive.
               </p>
             </div> 
-           
           </div>
   
           <div class="row featurette">
@@ -159,6 +160,8 @@ function Home() {
           </div>
 
         </div>
+
+
       </div>
   
         
