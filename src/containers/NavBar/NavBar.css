@@ -1,0 +1,33 @@
+/* CSS for NavBar.js */
+
+/* formating */
+.my-navbar {
+    background-color: #292929;
+    height: 75px;
+    transition: all .3s ease-in-out;
+  }
+  @media (min-width: 768px) {
+    .my-navbar {
+      background-color: #252c35;
+      height: auto;
+    }
+  }
+
+  /* BNL image */
+  .navbar-img {
+    height: 80px;
+    margin-left: 50px;
+    transition: all .3s ease-in-out;
+  }
+  @media (max-width: 992px) {
+    .navbar-img {
+      height: 50px;
+      margin: 2px 0 0 10px;
+    }
+  }
+  @media (max-width: 768px) {
+    .navbar-img {
+      height: 38px;
+      margin: 6px 0 0 20px;
+    }
+  }

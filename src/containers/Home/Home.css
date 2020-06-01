@@ -1,149 +1,60 @@
-/* my css */
-
-/* NAVBAR */
-
-/*
-.my-navbar {
-  background-color: #252c35;
-  height: 150px;
-  transition: all .3s ease-in-out;
-}
-*/
-
-.my-navbar {
-  background-color: #292929;
-  height: 75px;
-  transition: all .3s ease-in-out;
-}
-@media (min-width: 768px) {
-  .my-navbar {
-    background-color: #252c35;
-    height: auto;
-  }
-}
-/*
-@media only screen and (max-width: 768px) {
-  .my-navbar {
-    background-color: #292929; 
-  }
-}
-*/
+/* CSS for Home.js */
 
 
-/* not being used currently ...
-.intro {
-  background-color: black;
-  color: white;
-  text-align: center;
-  height: 300px;
-  padding-right: 0px;
-  padding-left: 0px;
-  margin-right: 0px;
-  margin-left: 0px;
-}
-*/
-
-
-/* IMAGES */
-
-.navbar-img {
-  height: 80px;
-  margin-left: 50px;
-  transition: all .3s ease-in-out;
-}
-@media (max-width: 992px) {
-  .navbar-img {
-    height: 50px;
-    margin: 2px 0 0 10px;
-  }
-}
-@media (max-width: 768px) {
-  .navbar-img {
-    height: 38px;
-    margin: 6px 0 0 20px;
-  }
-}
-
-
+/* circular images */
 .home-circ-img {
-  border-radius: 50%;
-  height: 180px;
-  width: 180px;
-}
-@media (max-width: 768px) {
-  .home-circ-img {
-    height: 120px;
-    width: 120px;
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
   }
-}
-
-.home-sq-img {
-  border-radius: 5px;
-  height: 200px;
-  width: 200px;
-}
-@media (max-width: 768px) {
+  @media (max-width: 768px) {
+    .home-circ-img {
+      height: 120px;
+      width: 120px;
+    }
+  }
+  
   .home-sq-img {
-    height: 160px;
-    width: 160px;
+    border-radius: 5px;
+    height: 200px;
+    width: 200px;
+  }
+  @media (max-width: 768px) {
+    .home-sq-img {
+      height: 160px;
+      width: 160px;
+    }
+  
   }
 
-}
-/* CONTAINERS */
-.intro-container {
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  height: 400px;
-  background-color: #252c35;
-  border-bottom: 2px black solid;
-  color: white;
-}
+  /* introduction section container */
+  .intro-container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 400px;
+    background-color: #252c35;
+    border-bottom: 2px black solid;
+    color: white;
+  }
 
+  /* sec1 button */
+  .home-btn {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    border-radius: 20px;
+  }
 
-/* GENERAL */
-img {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
+  /* sec1 | sec2 spacer */
+  .spacer-15 {
+    width: 1px;
+    height: 15px;
+    display: block;
+    clear: both;
+  }
 
-h3 {
-  font-size: 24px;
-  font-weight: 500;
-  line-height: 1.1;
-  color: #656565
-}
-
-p {
-  font-size: 18px;
-  margin: 16px 0;
-  text-align: center;
-  font-family: Lato;
-  font-weight: 300;
-  line-height: 1.42857143;
-  color: #666;
-}
-
-
-/* BUTTONS */
-.home-btn {
-  color: #333;
-  background-color: #fff;
-  border-color: #ccc;
-  border-radius: 20px;
-}
-
-/* OTHER */
-.spacer-15 {
-  width: 1px;
-  height: 15px;
-  display: block;
-  clear: both;
-}
-
-/* CUSTOM */
-
-/* line for first section */
+  /* line for first section */
 .sec-margin {
   margin-bottom: 100px;
   
@@ -324,11 +235,3 @@ p {
     line-height: 20px;
   }
 }
-
-
-
-
-
-
-
-

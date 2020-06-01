@@ -4,3 +4,11 @@ Commits:
   3. Added navigation bar, multiple pages (using both class and function components), and a color button
   4. Styled home with bootstrap
   5. Continued to style home with bootstrap/custom css
+  6. Continued css styling
+  7. Continued css styling
+
+  Commands:
+    npm start - starts app environment
+    npm test - launches test runner
+    npm run build - builds app for production to the build folder
+    npm run eject - ejects from build tool

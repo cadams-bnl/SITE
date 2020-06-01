@@ -3,11 +3,10 @@ import { Link } from 'react-router-dom';
 import '../../css/main.css';
 
 // not sure how to move text of navbar over to right
-// needs to expand/shrink based off screen size ("auto" attribute?)
 
 function NavBar() {
     return(
-        <nav class="navbar navbar-expand-md navbar-dark navbar-fixed-top my-navbar">
+        <nav class="navbar navbar-expand-md navbar-dark my-navbar">
             <Link class="navbar-brand" to="/">
                 <img class="navbar-img" src="https://bnlconsulting.com/images/bnl-logo.47c3fb5e.svg" 
                     alt={'Not working'} />
