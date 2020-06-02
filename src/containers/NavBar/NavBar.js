@@ -13,8 +13,7 @@ function NavBar() {
             </Link>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse"
-                data-target="#navID" aria-controls="navID"
-                aria-expanded="false" aria-label="Toggle navigation">
+                data-target="#navID">
                 <span class="navbar-toggler-icon"></span>
             </button>
 

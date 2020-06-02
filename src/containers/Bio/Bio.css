@@ -1,0 +1,54 @@
+/* CSS for Bio component (Bio.js) */
+
+/* padding for row */
+.bio-row {
+    padding: 20px 0px;
+}
+
+/* image */
+.circ-img {
+    border-radius: 50%;
+    height: 234px;
+    width: 234px;
+  }
+  @media (max-width: 1200px) {
+    .circ-img {
+      height: 190.66px;
+      width: 190.66px;
+    }
+  }
+  @media (max-width: 960px) {
+      .circ-img {
+        height: 176px;
+        width: 176px;
+      }
+  }
+  @media (max-width: 720px) {
+    .circ-img {
+      height: 100px;
+      width: 100px;
+    }
+}
+
+/* LinkedIn Button */
+.bio-btn {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    border-radius: 20px;
+}
+
+/* my-p */
+.bio-p {
+    text-align: center;
+}
+
+
+
+
+
+
+
+.highlight {
+    border: red 1px solid;
+}
